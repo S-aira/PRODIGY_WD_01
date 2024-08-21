@@ -1,0 +1,75 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+/* Menu Styling */
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+/* Hover Effect */
+.nav-link:hover {
+    color: black; /* Tomato color */
+}
+
+/* Scroll Effect */
+.navbar.scrolled {
+    background-color:brown;
+}
+
+/* Content Sections */
+section {
+    padding: 100px;
+    margin-top: 60px; /* To avoid overlap with fixed navbar */
+    height: 100hv;
+}
+
+#home {
+    background-color: cadetblue;
+}
+
+#about {
+    background-color:cadetblue;
+}
+
+#services {
+    background-color: cadetblue;
+}
+
+#contact {
+    background-color: cadetblue;
+}
